@@ -1,0 +1,37 @@
+{
+  "name": "farmtrust",
+  "version": "1.0.0",
+  "description": "An Agricultural Supply Chain Management using Blockchain",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charankannati/Farmtrust.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charankannati/Farmtrust/issues"
+  },
+  "homepage": "https://github.com/charankannati/Farmtrust#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20",
+    "truffle": "5.7.7",
+    "truffle-contract": "3.0.6",
+    "hardhat": "^2.12.7",
+    "web3": "^1.8.2"
+  }
+}
